@@ -1,0 +1,11 @@
+{
+  "workspace": [
+    "examples/*",
+    "packages/*"
+  ],
+  "imports": {
+    "effect": "npm:effect@^3.12.1",
+    "@std/assert": "jsr:@std/assert@1",
+    "radashi": "npm:radashi@^12.3.1"
+  }
+}
