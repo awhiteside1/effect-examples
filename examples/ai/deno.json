@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@effect/ai": "npm:@effect/ai@^0.5.1",
+    "@effect/ai-openai": "npm:@effect/ai-openai@^0.8.1",
+    "@effect/platform": "npm:@effect/platform@^0.72.1"
+  }
+}
