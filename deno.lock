@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@std/assert@*": "1.0.10",
     "jsr:@std/assert@1": "1.0.10",
     "jsr:@std/internal@^1.0.5": "1.0.5",
     "npm:@effect/ai-openai@~0.8.1": "0.8.1_@effect+ai@0.5.1__@effect+platform@0.72.1___effect@3.12.1__effect@3.12.1_@effect+experimental@0.36.1__@effect+platform@0.72.1___effect@3.12.1__effect@3.12.1_@effect+platform@0.72.1__effect@3.12.1_effect@3.12.1",
