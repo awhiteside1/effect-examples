@@ -1,6 +1,7 @@
-import { OpenAiClient, OpenAiCompletions } from "@effect/ai-openai";
-import { Layer, Redacted } from "effect";
-import { FetchHttpClient, HttpClient } from "@effect/platform";
+import {OpenAiClient, OpenAiCompletions} from "@effect/ai-openai";
+import {FetchHttpClient} from "@effect/platform";
+import {Layer, Redacted} from "effect";
+
 export const createClient = () => {
   const apiKey = Deno.env.get("OPENAI_API_KEY");
   if (!apiKey) throw new Error("API key is missing");
