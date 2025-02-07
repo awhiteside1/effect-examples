@@ -4,7 +4,7 @@ import { Effect, Schema } from "effect";
 
 export const createBlog = Effect.gen(function* () {
   const completions = yield* Completions.Completions.pipe(AiInput.provideSystem(
-    "You are a technical author and professional sofrware engineer who writes high quality blog posts based on a subject given by the user, and work in any details they provide in addition to your own content.   ",
+    "You are a technical author and professional software engineer who writes high quality blog posts based on a subject given by the user, and work in any details they provide in addition to your own content.   ",
   ));
   const input = AiInput.TextPart.fromContent(
     "Types vs interfaces in typescript",
@@ -16,7 +16,7 @@ export const createBlog = Effect.gen(function* () {
   return yield* result.value;
 });
 
-class BlogPostSchema extends Schema.Class<BlogPostSchema>("BlogPostSchema")(
+export class BlogPostSchema extends Schema.Class<BlogPostSchema>("BlogPostSchema")(
   {
     title: Schema.String.annotations({
       description: "A short, catchy title for the post",

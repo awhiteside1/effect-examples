@@ -1,19 +1,19 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@std/assert@*": "1.0.10",
-    "jsr:@std/assert@1": "1.0.10",
+    "jsr:@std/assert@*": "1.0.11",
+    "jsr:@std/assert@^1.0.11": "1.0.11",
     "jsr:@std/internal@^1.0.5": "1.0.5",
-    "npm:@effect/ai-openai@~0.8.1": "0.8.2_@effect+ai@0.5.2__@effect+platform@0.72.2___effect@3.12.5__effect@3.12.5_@effect+experimental@0.36.2__@effect+platform@0.72.2___effect@3.12.5__effect@3.12.5_@effect+platform@0.72.2__effect@3.12.5_effect@3.12.5",
-    "npm:@effect/ai@~0.5.1": "0.5.2_@effect+platform@0.72.2__effect@3.12.5_effect@3.12.5",
-    "npm:@effect/platform@~0.72.1": "0.72.2_effect@3.12.5",
+    "npm:@effect/ai-openai@~0.11.3": "0.11.3_@effect+ai@0.8.3__@effect+experimental@0.39.3___@effect+platform@0.75.3____effect@3.12.9___effect@3.12.9__@effect+platform@0.75.3___effect@3.12.9__effect@3.12.9_@effect+experimental@0.39.3__@effect+platform@0.75.3___effect@3.12.9__effect@3.12.9_@effect+platform@0.75.3__effect@3.12.9_effect@3.12.9",
+    "npm:@effect/ai@~0.8.3": "0.8.3_@effect+experimental@0.39.3__@effect+platform@0.75.3___effect@3.12.9__effect@3.12.9_@effect+platform@0.75.3__effect@3.12.9_effect@3.12.9",
+    "npm:@effect/platform@~0.75.3": "0.75.3_effect@3.12.9",
     "npm:@huggingface/transformers@3.2.4": "3.2.4",
-    "npm:effect@^3.12.5": "3.12.5",
-    "npm:radashi@^12.3.1": "12.3.1"
+    "npm:effect@^3.12.9": "3.12.9",
+    "npm:radashi@^12.3.4": "12.3.4"
   },
   "jsr": {
-    "@std/assert@1.0.10": {
-      "integrity": "59b5cbac5bd55459a19045d95cc7c2ff787b4f8527c0dd195078ff6f9481fbb3",
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
       "dependencies": [
         "jsr:@std/internal"
       ]
@@ -23,8 +23,8 @@
     }
   },
   "npm": {
-    "@effect/ai-openai@0.8.2_@effect+ai@0.5.2__@effect+platform@0.72.2___effect@3.12.5__effect@3.12.5_@effect+experimental@0.36.2__@effect+platform@0.72.2___effect@3.12.5__effect@3.12.5_@effect+platform@0.72.2__effect@3.12.5_effect@3.12.5": {
-      "integrity": "sha512-gh1fI/y8Z3zIamW96MhbSuxZL/ky+FwGAxEAuGOZFqTcaHdRGQKcpuEuTAWadbkdtOeop17D2EYBQTo23SZAxg==",
+    "@effect/ai-openai@0.11.3_@effect+ai@0.8.3__@effect+experimental@0.39.3___@effect+platform@0.75.3____effect@3.12.9___effect@3.12.9__@effect+platform@0.75.3___effect@3.12.9__effect@3.12.9_@effect+experimental@0.39.3__@effect+platform@0.75.3___effect@3.12.9__effect@3.12.9_@effect+platform@0.75.3__effect@3.12.9_effect@3.12.9": {
+      "integrity": "sha512-SWroawB8ilL7ThRCbRDi9yrvFuMka5asoBPR3DT68huGVTfvgnhreZvTi34X1Hp8u+MowWvDd9NDE9qiQXK1wQ==",
       "dependencies": [
         "@effect/ai",
         "@effect/experimental",
@@ -33,23 +33,25 @@
         "gpt-tokenizer"
       ]
     },
-    "@effect/ai@0.5.2_@effect+platform@0.72.2__effect@3.12.5_effect@3.12.5": {
-      "integrity": "sha512-W1vtDvvsKnM1CC/j0L4yg8EQo51bEvecV2UhpSpqdr32IuSvwkN5TVG6G1aNzJ2RXODAuVLOqDF+KinyiT/OzA==",
+    "@effect/ai@0.8.3_@effect+experimental@0.39.3__@effect+platform@0.75.3___effect@3.12.9__effect@3.12.9_@effect+platform@0.75.3__effect@3.12.9_effect@3.12.9": {
+      "integrity": "sha512-IkpPfU/YCuvPefx6n9ApiKipOVCbd3zaPaLuRWMTGDeppRArspFhqmWkvp0dDqkt+bhiLzSNRF9bnlF/TdtlRQ==",
       "dependencies": [
+        "@effect/experimental",
         "@effect/platform",
         "effect"
       ]
     },
-    "@effect/experimental@0.36.2_@effect+platform@0.72.2__effect@3.12.5_effect@3.12.5": {
-      "integrity": "sha512-dW5mQxprG3l/0cgObRUbBikpFffKge5wugJglvvh4rKTpqsZwlGjzwAyoicgx3AUwpi41MpX2p3y9gfhHjStIg==",
+    "@effect/experimental@0.39.3_@effect+platform@0.75.3__effect@3.12.9_effect@3.12.9": {
+      "integrity": "sha512-Srz0bNe0dXZGuVdOAUjgcPPhfo2/CDxQhhLMSTakFw6FOqCRbkznGok2wCmUtpQxM4XYJ56uKt+s+xaKZE75yw==",
       "dependencies": [
         "@effect/platform",
         "effect",
-        "msgpackr"
+        "msgpackr",
+        "uuid"
       ]
     },
-    "@effect/platform@0.72.2_effect@3.12.5": {
-      "integrity": "sha512-7oWNTyrlkDoopA2kEm2s3M1VAJETnIK/bVlW4qqEVbKLern8znPotIx1fRNtTIUANPKhUMclC3Jt+R+3UEUdUw==",
+    "@effect/platform@0.75.3_effect@3.12.9": {
+      "integrity": "sha512-6VTyTvt7KgIRQKWkOxbRsWa2j1qYRRmvNaduamOeaHGbG75ShIEPgDdHpm7wwozhg+K3VfcRqWduOucLEAsVHw==",
       "dependencies": [
         "effect",
         "find-my-way-ts",
@@ -300,8 +302,8 @@
     "eastasianwidth@0.2.0": {
       "integrity": "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA=="
     },
-    "effect@3.12.5": {
-      "integrity": "sha512-hP+ev9NTjYcvySbPOOgrYiwCYxiIcjuvtR8WXMoSZEZEshOyQlDwgo1Z56kVezv1rTxz20PEGVqZGlXwxe6Ofw==",
+    "effect@3.12.9": {
+      "integrity": "sha512-u3PsO0KWtCTO56yGGYaa8RLOccE6Kbeb4UotS/ArAG/tqAyf0x3JF3WaaklhnxJtt67P6SktLmwRPT4hiuhKEA==",
       "dependencies": [
         "fast-check"
       ]
@@ -476,8 +478,8 @@
     "pure-rand@6.1.0": {
       "integrity": "sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA=="
     },
-    "radashi@12.3.1": {
-      "integrity": "sha512-1bxAudKifYl4F5A9sCFJpGnHoCDFI5Owus0oG4Ow4FYeGDE/p15/xiT6Lm4CsjlLEeFvGhiBNtNIUCQ3UpGw8Q=="
+    "radashi@12.3.4": {
+      "integrity": "sha512-EC+EhNBJItMLo/D3GR87raHf7W1hkbHUT7Y3Y7/3O+cwMOulRfuZ3g+EU0KT9eikaj8vwLA4ia+bdaXkBGuT4Q=="
     },
     "rimraf@5.0.10": {
       "integrity": "sha512-l0OE8wL34P4nJH/H2ffoaniAokM2qSmrtXHmlpvYr5AVVX8msAyW0l8NVJFDxlSK4u3Uh/f41cQheDVdnYijwQ==",
@@ -578,6 +580,9 @@
     "undici-types@6.20.0": {
       "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
     },
+    "uuid@11.0.5": {
+      "integrity": "sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA=="
+    },
     "which@2.0.2": {
       "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
       "dependencies": [
@@ -606,16 +611,16 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/assert@1",
-      "npm:effect@^3.12.5",
-      "npm:radashi@^12.3.1"
+      "jsr:@std/assert@^1.0.11",
+      "npm:effect@^3.12.9",
+      "npm:radashi@^12.3.4"
     ],
     "members": {
       "examples/ai": {
         "dependencies": [
-          "npm:@effect/ai-openai@~0.8.1",
-          "npm:@effect/ai@~0.5.1",
-          "npm:@effect/platform@~0.72.1"
+          "npm:@effect/ai-openai@~0.11.3",
+          "npm:@effect/ai@~0.8.3",
+          "npm:@effect/platform@~0.75.3"
         ]
       }
     }
